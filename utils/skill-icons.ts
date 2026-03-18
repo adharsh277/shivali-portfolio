@@ -12,11 +12,17 @@ import {
   SiFirebase,
   SiGit,
   SiFigma,
-  SiBootstrap,
   SiMui,
   SiCanva,
-  SiAdobeillustrator,
   SiAdobephotoshop,
+  SiPython,
+  SiScikitlearn,
+  SiStreamlit,
+  SiSupabase,
+  SiPostgresql,
+  SiPandas,
+  SiLooker,
+  SiGooglesheets,
   SiFreelancer,
 } from "react-icons/si";
 import { IconType } from "react-icons";
@@ -60,17 +66,40 @@ export const getSkillIcon = (skill: string): IconType => {
       return SiGit;
     case "figma":
       return SiFigma;
-    case "bootstrap":
-      return SiBootstrap;
     case "materialui":
     case "mui":
       return SiMui;
     case "canva":
       return SiCanva;
-    case "illustrator":
-      return SiAdobeillustrator;
     case "photoshop":
       return SiAdobephotoshop;
+    case "python":
+      return SiPython;
+    case "scikit-learn":
+    case "scikitlearn":
+      return SiScikitlearn;
+    case "streamlit":
+      return SiStreamlit;
+    case "supabase":
+      return SiSupabase;
+    case "postgresql":
+    case "postgres":
+      return SiPostgresql;
+    case "pandas":
+      return SiPandas;
+    case "smote":
+      return SiScikitlearn;
+    case "power bi":
+    case "powerbi":
+      return SiLooker;
+    case "dax":
+      return SiLooker;
+    case "power query":
+      return SiLooker;
+    case "data modeling":
+      return SiLooker;
+    case "excel":
+      return SiGooglesheets;
     default:
       return SiFreelancer; // Fallback icon
   }
@@ -108,11 +137,23 @@ export const getSkillColor = (skill: string): string => {
       return "#dc2626"; // Red-600
     case "figma":
       return "#b91c1c"; // Red-700
-    case "bootstrap":
-      return "#991b1b"; // Red-800
     case "materialui":
     case "mui":
       return "#ef4444"; // Red-500
+    case "python":
+      return "#dc2626"; // Red-600
+    case "scikit-learn":
+    case "streamlit":
+    case "supabase":
+    case "postgresql":
+    case "pandas":
+    case "smote":
+    case "power bi":
+    case "dax":
+    case "power query":
+    case "data modeling":
+    case "excel":
+      return "#b91c1c"; // Red-700
     default:
       return "#ef4444"; // Default Red
   }
