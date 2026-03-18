@@ -1,10 +1,9 @@
 "use client";
 import Link from "next/link";
 import { BiLogoLinkedin } from "react-icons/bi";
-import { FaFacebook, FaStackOverflow } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
 import { IoLogoGithub, IoMdCall } from "react-icons/io";
 import { MdAlternateEmail } from "react-icons/md";
+import { SiLeetcode } from "react-icons/si";
 import { personalData } from "@/../utils/Data/PersonalData";
 import ContactWithoutCaptcha from "./contact-without-captcha";
 import SectionReveal from "../SectionReveal";
@@ -141,24 +140,14 @@ function ContactSection() {
                       color: "#ffffff",
                     },
                     {
+                      href: personalData.leetcode,
+                      icon: SiLeetcode,
+                      color: "#ffa116",
+                    },
+                    {
                       href: personalData.linkedIn,
                       icon: BiLogoLinkedin,
                       color: "#0077b5",
-                    },
-                    {
-                      href: personalData.twitter,
-                      icon: FaXTwitter,
-                      color: "#1da1f2",
-                    },
-                    {
-                      href: personalData.stackOverflow,
-                      icon: FaStackOverflow,
-                      color: "#f48024",
-                    },
-                    {
-                      href: personalData.facebook,
-                      icon: FaFacebook,
-                      color: "#1877f2",
                     },
                   ].map((social, idx) => (
                     <Link
