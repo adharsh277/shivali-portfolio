@@ -236,14 +236,17 @@ const HeroSection = () => {
                     <span className="text-slate-600 italic">02</span>
                     <p className="ml-4">
                       <span className="text-slate-200">name:</span>{" "}
-                      <span className="text-red-300">'Abdul Basit'</span>,
+                      <span className="text-red-300">'Shivali V'</span>,
                     </p>
                   </div>
                   <div className="flex gap-4">
                     <span className="text-slate-600 italic">03</span>
                     <p className="ml-4">
                       <span className="text-slate-200">focus:</span>{" "}
-                      <span className="text-red-300">'Fullstack Mastery'</span>,
+                      <span className="text-red-300">
+                        'Data Engineering & Data Science'
+                      </span>
+                      ,
                     </p>
                   </div>
                   <div className="flex gap-4">
@@ -251,7 +254,7 @@ const HeroSection = () => {
                     <p className="ml-4">
                       <span className="text-slate-200">skills:</span> [
                       <span className="text-red-300">
-                        'NextJS', 'GSAP', 'AI'
+                        'Python', 'SQL', 'ML'
                       </span>
                       ],
                     </p>
@@ -267,7 +270,9 @@ const HeroSection = () => {
                     <span className="text-slate-600 italic">06</span>
                     <p className="ml-4">
                       <span className="text-slate-200">motto:</span>{" "}
-                      <span className="text-red-400">"Build with Purpose"</span>
+                      <span className="text-red-400">
+                        "Transform Data into Impact"
+                      </span>
                     </p>
                   </div>
                   <div className="flex gap-4">
