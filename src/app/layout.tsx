@@ -16,30 +16,30 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Abdul Basit | Full Stack Developer & AI Automation Expert",
+  title: "Shivali V | Data Engineering & ML Systems Architect",
   description:
-    "Explore the portfolio of Abdul Basit, a Professional Full Stack Developer specializing in Next.js, AI Automation, and modern web solutions. Built for performance and user experience.",
+    "Explore Shivali V's portfolio focused on data engineering, machine learning systems, analytics, and scalable data platforms built for measurable impact.",
   keywords: [
-    "Abdul Basit",
-    "Full Stack Developer",
-    "Next.js Portfolio",
-    "AI Automation",
-    "Software Engineer",
-    "React Developer",
+    "Shivali V",
+    "Data Engineer",
+    "Machine Learning Engineer",
+    "Data Science Portfolio",
+    "Analytics Engineer",
+    "MLOps",
   ],
-  authors: [{ name: "Abdul Basit" }],
+  authors: [{ name: "Shivali V" }],
   openGraph: {
-    title: "Abdul Basit | Personal Portfolio",
+    title: "Shivali V | Data Engineering Portfolio",
     description:
-      "Full Stack Developer & AI Automation Expert — Building the future of the web.",
-    url: "https://abdulbasit-005.vercel.app",
-    siteName: "Abdul Basit Portfolio",
+      "Data Engineering and ML systems portfolio showcasing scalable pipelines, intelligent models, and analytics products.",
+    url: "https://shivali-portfolio.vercel.app",
+    siteName: "Shivali V Portfolio",
     images: [
       {
         url: "/Website-overview.png",
         width: 1200,
         height: 630,
-        alt: "Abdul Basit Portfolio Overview",
+        alt: "Shivali V Portfolio Overview",
       },
     ],
     locale: "en_US",
@@ -47,8 +47,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Abdul Basit | Full Stack Developer",
-    description: "Building modern web applications and AI automations.",
+    title: "Shivali V | Data Engineering & ML",
+    description:
+      "Designing reliable data pipelines and intelligent ML systems.",
     images: ["/Website-overview.png"],
   },
   robots: {
