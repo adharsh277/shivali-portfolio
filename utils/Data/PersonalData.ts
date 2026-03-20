@@ -22,6 +22,5 @@ export const personalData = {
   stackOverflow: "https://stackoverflow.com/users/15349472/captain-ghost",
   devUsername: "GHOST 005",
   leetcode: "https://leetcode.com/u/Shivali_V/",
-  resume:
-    "https://drive.google.com/file/d/1TmtDCIlCaZJ4b0npzjwsdDtxiOWwye23/view?usp=drive_link",
+  resume: "/SHIVALI_CV.pdf",
 };
