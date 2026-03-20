@@ -3,6 +3,7 @@ import Contact from "./components/contact/index";
 import Experience from "./components/experience/page";
 import HeroSection from "./components/hero-section/page";
 import Projects from "./components/projects/index";
+import Certificates from "./components/certificates/index";
 import Skills from "./components/skills/page";
 import SectionReveal from "./components/SectionReveal";
 
@@ -27,6 +28,10 @@ export default function Home() {
 
         <SectionReveal>
           <Projects />
+        </SectionReveal>
+
+        <SectionReveal>
+          <Certificates />
         </SectionReveal>
 
         <SectionReveal>
