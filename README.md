@@ -1,16 +1,16 @@
+# 🌐 Shivali — Personal Portfolio
 
-# 🌐 Abdul Basit — Personal Portfolio
-
-Welcome to my **developer portfolio** built with **Next.js 15**, **Tailwind CSS**, and modern web tools. This site showcases my journey, skills, and projects — all wrapped in a sleek, animated, and responsive UI.
+Welcome to **Shivali's developer portfolio** built with **Next.js 15**, **Tailwind CSS**, and modern web tools. This site showcases her journey, skills, and projects — all wrapped in a sleek, animated, and responsive UI.
 
 ---
+
 ## 📸 Screenshot
 
-![Homepage of Abdul Basit’s Portfolio](public/Website-overview.png)
----
+## <!-- Screenshot placeholder: Add your homepage screenshot here -->
+
 ## 🚀 Live Demo
 
-🔗 [Visit Portfolio Website](https://abdul-basit-portfolio-website.vercel.app/)
+🔗 [Visit Shivali's Portfolio Website](https://shivali-portfolio.vercel.app/) <!-- Update with actual link if available -->
 
 ---
 
@@ -32,7 +32,7 @@ Welcome to my **developer portfolio** built with **Next.js 15**, **Tailwind CSS*
 ## 📁 Folder Structure
 
 ```
-ghost-oo5-personal-portfolio-website/
+shivali-portfolio/
 ├── public/                  # Static assets, Lottie, images, icons
 ├── src/app/
 │   ├── components/          # Reusable UI & page sections
@@ -92,7 +92,7 @@ NEXT_PUBLIC_EMAILJS_PUBLIC_KEY=
 
 ## 📦 Deployment
 
-deployed  [here](https://abdul-basit-portfolio-website.vercel.app/)
+Deployed [here](https://shivali-portfolio.vercel.app/) <!-- Update with actual link if available -->
 
 ---
 
@@ -102,10 +102,12 @@ This project is open-source and available under the [MIT License](LICENSE).
 
 ---
 
-## 📬 Contact Me
+## 📬 Contact Shivali
 
 Got a project in mind or just want to say hi?
 
-📧 [rajaabdulbasit005@gmail.com](mailto:rajaabdulbasit005@gmail.com)  
+📧 [shivali.email@example.com](mailto:shivali.email@example.com) <!-- Update with actual email if available -->
+
+```
 
 ```
