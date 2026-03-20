@@ -1,3 +1,11 @@
+export interface Certificate {
+  id: number;
+  name: string;
+  description: string;
+  issuer: string;
+  image: string;
+  link: string;
+}
 import { ReactNode } from "react";
 
 export interface AnimationLottieProps {

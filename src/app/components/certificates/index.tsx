@@ -1,7 +1,8 @@
 "use client";
 import { certificatesData } from "@/../utils/Data/certificates-data";
+import type { Certificate } from "@/../src/Types/types";
 
-const CertificateCard = ({ certificate }) => (
+const CertificateCard = ({ certificate }: { certificate: Certificate }) => (
   <div className="group relative p-8 rounded-3xl border border-white/10 bg-white/[0.02] backdrop-blur-md hover:border-red-600/50 transition-all duration-500 shadow-xl hover:shadow-red-600/10 flex flex-col items-center">
     <img
       src={certificate.image}
