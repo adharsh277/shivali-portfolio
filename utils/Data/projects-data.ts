@@ -9,7 +9,7 @@ export const projectsData = [
     code: "https://github.com/Shivali-10/diabetes-prediction/tree/main",
     demo: "",
     date: "",
-    images: ["/placeholder/placeholder.png"],
+    images: ["/projects/Diabetes Prediction.jpeg"],
     videos: [""],
     highlights: [
       "Built an end-to-end workflow from data preprocessing to deployed prediction UI.",
@@ -31,7 +31,7 @@ export const projectsData = [
     code: "https://github.com/Shivali-10/census-india-dashboard-powerbi/tree/main",
     demo: "",
     date: "",
-    images: ["/placeholder/placeholder.png"],
+    images: ["/projects/Census of India Data Dashboard.jpeg"],
     videos: [""],
     highlights: [
       "Created multi-page analytical reports for national and state-level insights.",
@@ -61,7 +61,7 @@ export const projectsData = [
     code: "https://github.com/Shivali-10/Model-Monitoring-and-Drift-Simulation",
     demo: "https://model-monitoring-and-drift-simulation.streamlit.app/",
     date: "",
-    images: ["/placeholder/placeholder.png"],
+    images: ["/projects/Model Monitoring and Drift Simulation.jpeg"],
     videos: [""],
     highlights: [
       "Implemented data-drift detection using statistical validation checks.",
