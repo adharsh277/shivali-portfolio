@@ -4,6 +4,7 @@ import Experience from "./components/experience/page";
 import HeroSection from "./components/hero-section/page";
 import Projects from "./components/projects/index";
 import Certificates from "./components/certificates/index";
+import ResearchPaper from "./components/research-paper";
 import Skills from "./components/skills/page";
 import SectionReveal from "./components/SectionReveal";
 
@@ -32,6 +33,10 @@ export default function Home() {
 
         <SectionReveal>
           <Certificates />
+        </SectionReveal>
+
+        <SectionReveal>
+          <ResearchPaper />
         </SectionReveal>
 
         <SectionReveal>
