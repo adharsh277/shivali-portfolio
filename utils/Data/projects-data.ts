@@ -75,7 +75,7 @@ export const projectsData = [
   },
   {
     id: 4,
-    name: "Netflix Data Analysis",
+    name: "Netflix Movies and TV Shows Data Analysis",
     description:
       "An exploratory data analysis project on Netflix’s dataset that reveals insights into content trends, genre popularity, and global distribution. It includes data preprocessing, visualization, and pattern analysis to understand how Netflix content has evolved over time.",
     tools: [
@@ -90,7 +90,7 @@ export const projectsData = [
     code: "https://github.com/Shivali-10/Netflix-data-analysis",
     demo: "",
     date: "",
-    images: ["/placeholder/placeholder.png"],
+    images: ["/projects/netflix.jpeg"],
     videos: [""],
     highlights: [
       "Performed data cleaning and preprocessing on Netflix’s dataset.",
@@ -100,6 +100,38 @@ export const projectsData = [
     challenges: [
       "Handling missing and inconsistent data entries.",
       "Extracting meaningful insights from large, unstructured datasets.",
+    ],
+  },
+
+  // New Project: Enterprise Financial AI Assistant (RAG-Based NLP System)
+  {
+    id: 5,
+    name: "Enterprise Financial AI Assistant (RAG-Based NLP System)",
+    description:
+      "Built an AI-powered financial research assistant using Retrieval-Augmented Generation (RAG) to enable semantic search, evidence-grounded question answering, and executive-level summarization of large-scale earnings call transcripts. The system leverages vector embeddings and FAISS-based similarity search to retrieve relevant financial discussions and generates context-aware insights using local LLM inference.",
+    tools: [
+      "Python",
+      "NLP",
+      "RAG",
+      "FAISS",
+      "Streamlit",
+      "LLM",
+      "Data Science",
+    ],
+    role: "AI/NLP Engineer",
+    code: "https://github.com/Vaishali-1234/enterprise-nlp-financial-rag",
+    demo: "",
+    date: "",
+    images: ["/projects/rag.jpeg"],
+    videos: [""],
+    highlights: [
+      "Semantic search and evidence-grounded Q&A over financial transcripts.",
+      "Vector embeddings and FAISS-based similarity search for retrieval.",
+      "Executive-level summarization using local LLM inference.",
+    ],
+    challenges: [
+      "Efficiently handling large-scale financial data.",
+      "Ensuring accurate and context-aware responses from the system.",
     ],
   },
   // Removed duplicate id: 3 project entry
