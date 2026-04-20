@@ -5,6 +5,7 @@ Welcome to **Shivali's developer portfolio** built with **Next.js 15**, **Tailwi
 
 ---
 
+
 ## 📸 Screenshot
 
 ## <!-- Screenshot placeholder: Add your homepage screenshot here -->
