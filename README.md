@@ -1,7 +1,6 @@
 # 🌐 Shivali — Personal Portfolio
 
 Welcome to **Shivali's developer portfolio** built with **Next.js 15**, **Tailwind CSS**, and modern web tools. This site showcases her journey, skills, and projects — all wrapped in a sleek, animated, and responsive UI.
-
 ---
 
 ## <!-- Screenshot placeholder: Add your homepage screenshot here -->
