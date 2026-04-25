@@ -5,7 +5,6 @@ Welcome to **Shivali's developer portfolio** built with **Next.js 15**, **Tailwi
 
 ## <!-- Screenshot placeholder: Add your homepage screenshot here -->
 
-
 ## 🚀 Live Demo
 
 🔗 [Visit Shivali's Portfolio Website](https://shivali-portfolio.vercel.app/) <!-- Update with actual link if available -->
